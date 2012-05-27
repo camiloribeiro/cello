@@ -1,4 +1,4 @@
-autoCELLO
+CELLO
 =====
 
 Cello is a Framework for automated UI tests based on Watir-Webdriver and Selenium-Webdriver in ruby, extended by metaprogramming and magic to implement something based on page object model and describe the behaviour with cucumber.
@@ -21,7 +21,7 @@ The way we choose to test our framework was . . . writing tests with it! This wa
 
 So, that way, if you are not a developer but a awesome QA with a little experience with code, you can help us practicing this tool in a little bit in your free time, and we will try make you happy fixing the bugs and implementing the new features you find during the time you'll spend writing tests. This examples will be storage on our repository with your name, mail, blog link or what you want.
 
-TODO
+ROADMAP
 ====
 
 0.5 Partitura
