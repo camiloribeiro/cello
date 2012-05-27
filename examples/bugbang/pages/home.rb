@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), "../../../lib/pages/page")
+require File.join(File.dirname(__FILE__), "../../../lib/cello/page")
 
 module BugBang
   class HomePage < Cello::Structure::Page
