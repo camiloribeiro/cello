@@ -2,10 +2,6 @@ Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file|
   require file 
 end
 
-Given /^I am on a page that has a textfield$/ do
-  @page = StaticPages::Site::InputPage.new
-end
-
 Then /^I should can knows if this page has a textfield$/ do
   @page.text_field_is_real?
   @page.close
@@ -14,10 +10,6 @@ end
 Then /^I should be able to write a text like "(.*?)"$/ do |text|
   @page.text_field_fill_with(text)
   @page.close
-end
-
-And /^There is a textfield with the text "(.*?)"$/ do |text|
-  @page.text_field_fill_with(text)
 end
 
 Then /^I shoud be able to know get the text "(.*?)"$/ do |text|
