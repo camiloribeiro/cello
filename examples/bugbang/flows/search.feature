@@ -17,7 +17,3 @@ Feature: Search
     When I go to about page
     Then I should see the text "Camilo Ribeiro"
 
-  Scenario: Seeing the last twelve post blogs
-    Given I am on The Bug Bang Theory home page
-    Then I want see the the last twelve postblog session
-    And It should be twelve links

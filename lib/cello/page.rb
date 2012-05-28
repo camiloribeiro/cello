@@ -21,9 +21,24 @@ module Cello
        @browser.text.include? text 
       end
 
+      def close
+        @browser.close
+      end
+
       def browser
         @browser
+      end
+
+      def get_picture
+        @browser.driver.save_screenshot 'screenshot.png'
+      end
+      def get_title
+        @browser.titles
+      end
+      def get_response_time
+        #pending
       end
     end
   end
 end
+

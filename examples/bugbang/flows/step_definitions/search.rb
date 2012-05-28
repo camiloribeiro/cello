@@ -3,7 +3,7 @@ Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file|
 end
 
 Given /^I am on The Bug Bang Theory home page$/ do
-  @home = BugBang::HomePage.new("http://bugbang.com.br/")
+  @home = BugBang::HomePage.new
 end
 
 When /^I write "(.*?)" on search field$/ do |search_text|
@@ -18,6 +18,9 @@ Then /^I should see the follow results:$/ do |results|
   results.hashes.each do |text|
     @home.search text.to_s 
   end
+  @home.get_picture
+  embed 'screenshot.png', 'image/png'
+  @home.close
 end
 
 When /^I go to about page$/ do
@@ -26,6 +29,9 @@ end
 
 Then /^I should see the text "(.*?)"$/ do |text|
   @home.search text.to_s
+  @home.get_picture
+  embed 'screenshot.png', 'image/png'
+  @home.close
 end
 
 Then /^I want see the the last twelve postblog session$/ do

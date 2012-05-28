@@ -22,20 +22,11 @@ module Cello
         method_name = "define_extras_for_#{type}"
         send(method_name, name) if respond_to? method_name
         
-        define_method "#{name}_fill_with" do |value|
-          send(name).set(value)
-        end
         define_method "#{name}_is_real?" do
           send(name).exists?
         end
-        define_method "#{name}_contains_text" do |text|
-          send(name).text.include? text
-        end
         define_method "#{name}_click" do
           send(name).click
-        end
-        define_method "#{name}_get_text" do
-          send(name).text
         end
       end
 
