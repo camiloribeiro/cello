@@ -3,44 +3,22 @@ Feature: Element
   I want use element to run my tests
 
   @pending
-  Scenario: 
+  Scenario: Use as element and send a native watir/selenium method
   @pending
-  Scenario: 
+  Scenario: Click at the element
   @pending
-  Scenario: 
+  Scenario: Know if the element is visible
   @pending
-  Scenario: 
+  Scenario: Know if the element is enable
   @pending
-  Scenario: 
+  Scenario: Know if the element exists
   @pending
-  Scenario: 
+  Scenario: Riht click at the element
   @pending
-  Scenario: 
+  Scenario: Wait until the element is gone
   @pending
-  Scenario: 
+  Scenario: Wait until the element is present
   @pending
-  Scenario: 
+  Scenario: get an html atribute 
   @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
-  @pending
-  Scenario: 
+  Scenario: get the location of it
