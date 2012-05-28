@@ -15,7 +15,7 @@ No one technique is required, but the first one is really recommended
 
 We still have to much work to do ( as you can see in right bellow in this document), but, if you want, you can fork it and have fun!
 
-Is STRONGLY recommended do not use it for comercial projects, because it will change too much and we never tested it in a real project. We recomend you use it to emulate a project and, if possible, return us you example to be added on our library.
+It's STRONGLY recommended do not use it for comercial projects, because it will change too much and we never tested it in a real project. We recomend you use it to emulate a project and, if possible, return us you example to be added on our library.
 
 The way we choose to test our framework was . . . writing tests with it! This way we keep a stable version of it, we can overcome the limitations writing new features to cover the tests that wasn't working and build a library of examples to future users. 
 
