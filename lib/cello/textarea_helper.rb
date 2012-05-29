@@ -2,6 +2,9 @@ module Cello
   module Structure
     module TextfieldHelper
       def define_extras_for_textarea(name)
+        define_method "#{name}_is_enable?" do
+          !(send(name).disabled?)
+        end
         define_method "#{name}_clear" do
           send(name).clear
         end

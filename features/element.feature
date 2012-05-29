@@ -21,12 +21,12 @@ Feature: Element
       | textarea      |
     Then I want know if this element is visible
 
-  #TODO implement a way to use it to textareas
   Scenario: Know if the element is enable
     Given I am on a page that has a element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
     Then I want know if this element is enable
 
   Scenario: Know if the element exists

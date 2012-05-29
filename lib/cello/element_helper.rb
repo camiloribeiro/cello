@@ -19,9 +19,6 @@ module Cello
       protected
 
       def define_extras(name, type)
-        method_name = "define_extras_for_#{type}"
-        send(method_name, name) if respond_to? method_name
-        
         define_method "#{name}_is_real?" do
           send(name).exists?
         end
@@ -38,6 +35,8 @@ module Cello
           send(name).right_click
         end
 
+        method_name = "define_extras_for_#{type}"
+        send(method_name, name) if respond_to? method_name
       end
 
      include CheckboxHelper
