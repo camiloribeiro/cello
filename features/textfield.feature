@@ -30,7 +30,6 @@ Feature: Textfield
     And There is a textfield with the text "Testing automation rocks"
     Then I should be able to know if the text on the textfield contais the text "rocks"
     
-    
   Scenario: The text on a textfield is exacle some text
     Given I am on a page that has a textfield
     And There is a textfield with the text "Testing automation rocks"
