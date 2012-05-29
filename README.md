@@ -60,27 +60,27 @@ ROADMAP
 
 0.5 Partitura
 -------------
-DSL: Based framework that consists on a metaprogramming way to create customized test methods to each single project using a new DSL to provide test methods in execution time using only one line description for each element.
-Selenium: Change watir-webdriver to selenium
-Cukes: Cucumber by nature
+-DSL: Based framework that consists on a metaprogramming way to create customized test methods to each single project using a new DSL to provide test methods in execution time using only one line description for each element.
+-Selenium: Change watir-webdriver to selenium
+-Cukes: Cucumber by nature
 
 1.0 Tabulatura
 --------------
-Gem: Creat the cello gem that will:
-*Create project 
-*Get a page and write the elements in the page
-No Browser: Headless browser execution
+-Gem: Creat the cello gem that will:
+  *Create project 
+  *Get a page and write the elements in the page
+-No Browser: Headless browser execution
 
 1.5 Ocarine
 -----------
-DDT: Data driven testing by nature
-No Cukes: Provide a way to work with other BDD tools
-XTest: X-browser Testing by nature
+-DDT: Data driven testing by nature
+-No Cukes: Provide a way to work with other BDD tools
+-XTest: X-browser Testing by nature
 
 2.0 Orquestra
 -------------
-No Selenium: Provide a way to choose at least Watir or selenium
-Scala: Create a copu for scala and java users
+-No Selenium: Provide a way to choose at least Watir or selenium
+-Scala: Create a copu for scala and java users
 
 
 LICENCE
