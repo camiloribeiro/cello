@@ -18,17 +18,17 @@ Then /^I shoud be able to know get the text "(.*?)"$/ do |text|
 end
 
 Then /^I should be able to know if the text on the textfield does not contais the text "(.*?)"$/ do |text|
-  @page.text_field_dont_contain(text) === true
+  @page.text_field_dont_contain(text) 
   @page.close
 end
 
 Then /^I should be able to know if the text on the textfield contais the text "(.*?)"$/ do |text|
-  @page.text_field_contains(text) === true
+  @page.text_field_contains(text) 
   @page.close
 end
 
 Then /^I should be able to know if the text on the textfield is the text "(.*?)"$/ do |text|
-  @page.text_field_text_is(text) === true
+  @page.text_field_text_is(text) 
   @page.close
 end
 

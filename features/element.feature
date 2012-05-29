@@ -4,21 +4,60 @@ Feature: Element
 
   @pending
   Scenario: Use as element and send a native watir/selenium method
-  @pending
+  
   Scenario: Click at the element
-  @pending
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+    Then I want click on this element
+    
   Scenario: Know if the element is visible
-  @pending
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+    Then I want know if this element is visible
+   
   Scenario: Know if the element is enable
-  @pending
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+    Then I want know if this element is enable
+
   Scenario: Know if the element exists
-  @pending
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+    Then I want know if this element exists
+
   Scenario: Riht click at the element
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+    Then I shoud be able to click with the right button in this element
+
   @pending
   Scenario: Wait until the element is gone
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+
   @pending
   Scenario: Wait until the element is present
-  @pending
-  Scenario: get an html atribute 
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+
   @pending
   Scenario: get the location of it
+    Given I am on a page that has a element
+    And that element is named as: 
+      | checkbox      |
+      | text_field    |
+    Then I should be able to get the location of it

@@ -28,6 +28,16 @@ module Cello
         define_method "#{name}_click" do
           send(name).click
         end
+        define_method "#{name}_is_visible?" do
+          send(name).visible?
+        end
+        define_method "#{name}_is_enable?" do
+          send(name).enabled?
+        end
+        define_method "#{name}_right_click" do
+          send(name).right_click
+        end
+
       end
 
      include CheckboxHelper
