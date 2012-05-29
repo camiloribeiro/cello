@@ -10,6 +10,7 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
     Then I want click on this element
     
   Scenario: Know if the element is visible
@@ -17,8 +18,10 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
     Then I want know if this element is visible
-   
+
+  #TODO implement a way to use it to textareas
   Scenario: Know if the element is enable
     Given I am on a page that has a element
     And that element is named as: 
@@ -31,6 +34,7 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
     Then I want know if this element exists
 
   Scenario: Riht click at the element
@@ -38,6 +42,7 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
     Then I shoud be able to click with the right button in this element
 
   @pending
@@ -46,6 +51,7 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
 
   @pending
   Scenario: Wait until the element is present
@@ -53,6 +59,7 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
 
   @pending
   Scenario: get the location of it
@@ -60,4 +67,5 @@ Feature: Element
     And that element is named as: 
       | checkbox      |
       | text_field    |
+      | textarea      |
     Then I should be able to get the location of it

@@ -8,12 +8,12 @@ Feature: Textfield
     
   Scenario: Setting a text on a textfield
     Given I am on a page that has a textfield
-    Then I should be able to write a text like "Testing automation Rockst"
+    Then I should be able to write a text like "Testing automation Rockst" in the textfield
 
   Scenario: Getting the text from a textfield
     Given I am on a page that has a textfield
     And There is a textfield with the text "Testing automation rocks"
-    Then I shoud be able to know get the text "Testing automation rocks"
+    Then I shoud be able to get the text "Testing automation rocks" from this textfield
 
   Scenario: The textfield does not contais the text
     Given I am on a page that has a textfield
@@ -47,6 +47,3 @@ Feature: Textfield
     And There is a textfield with the text "Testing automation rocks"
     Then I should be able to know if the size of the textfield text is "24"
     
-    
-    @pending
-  Scenario: The textfield is not enable

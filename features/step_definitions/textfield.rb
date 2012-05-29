@@ -7,12 +7,12 @@ Then /^I should can knows if this page has a textfield$/ do
   @page.close
 end
 
-Then /^I should be able to write a text like "(.*?)"$/ do |text|
+Then /^I should be able to write a text like "(.*?)" in the textfield$/ do |text|
   @page.text_field_fill_with(text)
   @page.close
 end
 
-Then /^I shoud be able to know get the text "(.*?)"$/ do |text|
+Then /^I shoud be able to get the text "(.*?)" from this textfield$/ do |text|
   @page.text_field_get_text == text
   @page.close
 end
