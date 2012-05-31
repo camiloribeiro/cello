@@ -6,6 +6,8 @@ module Cello
   module Structure
     module ElementHelper
 
+      private
+
       def element(name, type, *args)
         class_eval do
           define_method name do
@@ -15,8 +17,6 @@ module Cello
           define_extras(name, type)
         end
       end
-
-      protected
 
       def define_extras(name, type)
         define_method "#{name}_is_real?" do

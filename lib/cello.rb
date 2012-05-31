@@ -7,5 +7,7 @@ require 'selenium-webdriver'
 require 'watir-webdriver'
 require 'cucumber'
 
+require 'cello/page'
+
 module Cello
 end

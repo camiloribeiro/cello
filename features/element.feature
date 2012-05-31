@@ -37,7 +37,7 @@ Feature: Element
       | textarea      |
     Then I want know if this element exists
 
-  Scenario: Riht click at the element
+  Scenario: Right click at the element
     Given I am on a page that has a element
     And that element is named as: 
       | checkbox      |
