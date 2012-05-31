@@ -79,9 +79,6 @@ ROADMAP
 
 -No Selenium: Provide a way to choose at least Watir or selenium
 
--Scala: Create a copu for scala and java users
-
-
 LICENCE
 =======
 
