@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), "element_helper")
+require File.join(File.dirname(__FILE__), "./html_elements/element_helper")
 require "rubygems"
 require "selenium-webdriver"
 require "watir-webdriver"

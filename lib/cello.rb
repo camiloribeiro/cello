@@ -7,7 +7,8 @@ require 'selenium-webdriver'
 require 'watir-webdriver'
 require 'cucumber'
 
-require 'cello/page'
+#internal dependences
+require File.join(File.dirname(__FILE__), './cello/structure/page')
 
 module Cello
 end
