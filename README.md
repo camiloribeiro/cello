@@ -15,14 +15,13 @@ What is the idea?
 -----------------
 The core idea is based on two tecniques and a lots of ideas:
 *The first one is the Page-Object Model that provide a way to make tests more maintainable
-*The second one is the record but not replay that allows people without programming skills generate automated regression tests in a easier and faster way
+*The second one is the record but not replay that allows people without programming skills generate automated regression tests in an easier and faster way
 
 No one technique is required, but the first one is really recommended
 
 We still have to much work to do ( as you can see in right bellow in this document), but, if you want, you can fork it and have fun!
 
 It's STRONGLY recommended do not use it for comercial projects, because it will change too much and we never tested it in a real project. We recomend you use it to emulate a project and, if possible, return us you example to be added on our library.
-
 
 The way we choose to test our framework was . . . writing tests with it! This way we keep a stable version of it, we can overcome the limitations writing new features to cover the tests that wasn't working and build a library of examples to future users. 
 
@@ -61,25 +60,33 @@ ROADMAP
 0.5 Partitura
 -------------
 -DSL: Based framework that consists on a metaprogramming way to create customized test methods to each single project using a new DSL to provide test methods in execution time using only one line description for each element.
+
 -Selenium: Change watir-webdriver to selenium
+
 -Cukes: Cucumber by nature
 
 1.0 Tabulatura
 --------------
 -Gem: Creat the cello gem that will:
+
   *Create project 
+
   *Get a page and write the elements in the page
+
 -No Browser: Headless browser execution
 
 1.5 Ocarine
 -----------
 -DDT: Data driven testing by nature
+
 -No Cukes: Provide a way to work with other BDD tools
+
 -XTest: X-browser Testing by nature
 
 2.0 Orquestra
 -------------
 -No Selenium: Provide a way to choose at least Watir or selenium
+
 -Scala: Create a copu for scala and java users
 
 
