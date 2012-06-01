@@ -1,7 +1,7 @@
 require File.join(File.dirname(__FILE__), "./html_elements/element_helper")
 require "rubygems"
-require "selenium-webdriver"
 require "watir-webdriver"
+require "headless"
 
 module Cello
   module Structure
@@ -10,8 +10,9 @@ module Cello
 
       attr_reader :browser
       def initialize(url)
-        @browser = Watir::Browser.new :firefox
-        @browser.goto url
+        @headless = Headless.new
+        @headless.start
+        @browser = Watir::Browser.start url
       end
    
       def visit
@@ -23,6 +24,7 @@ module Cello
 
       def close
         @browser.close
+        @headless.destroy
       end
 
       def browser

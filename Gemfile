@@ -5,6 +5,7 @@ gem 'watir-webdriver'
 gem 'cucumber'
 gem 'rake'
 gem 'hitch'
+gem 'headless'
 
 
 gemspec
