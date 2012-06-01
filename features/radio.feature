@@ -4,7 +4,7 @@ Feature: Radio
 
   @pending
   Scenario: See whitch option of a radio collection is setted
-    Given I am on a page that has a radio group with the follow opitions:
+  Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
       | watir-webdriver    | 
       | selenium-webdriver | 

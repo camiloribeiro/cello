@@ -8,6 +8,7 @@ module StaticPages
       element :text_fieldxpath,  :text_field, :xpah, '//*[@id="text1"]'
       element :checkbox,  :checkbox, :id => 'check1'
       element :textarea,  :textarea, :id => 'area1'
+      element :radios,  :radios, :name => 'items'
 
       @@url = 'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
       def initialize

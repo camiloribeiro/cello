@@ -5,7 +5,7 @@ end
 Given /^I am on a page that has a radio group with the follow opitions:$/ do |radios|
   @page = StaticPages::Site::InputPage.new
   radios.raw.each do |radio|
-    @page.radio_contains(radio)
+    @page.radios_contains(radio)
   end
 end
 
