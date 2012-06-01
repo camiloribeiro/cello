@@ -1,6 +1,8 @@
 CELLO
 =====
 
+https://secure.travis-ci.org/[camiloribeiro]/[c`ello].pngi
+
 What?
 -----
 Cello is a Framework for automated UI tests based on Watir-Webdriver and Selenium-Webdriver in ruby, extended by metaprogramming and magic to implement something based on page object model and describe the behaviour with cucumber.
