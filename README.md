@@ -1,7 +1,7 @@
 CELLO
 =====
 
-https://secure.travis-ci.org/[camiloribeiro]/[c`ello].pngi
+https://secure.travis-ci.org/[camiloribeiro]/[cello].png
 
 What?
 -----
