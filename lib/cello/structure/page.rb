@@ -2,6 +2,7 @@ require File.join(File.dirname(__FILE__), "./html_elements/element_helper")
 require "rubygems"
 require "watir-webdriver"
 require "headless"
+require "rspec"
 
 module Cello
   module Structure

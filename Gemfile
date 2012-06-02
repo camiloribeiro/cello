@@ -6,6 +6,7 @@ gem 'cucumber'
 gem 'rake'
 gem 'hitch'
 gem 'headless'
+gem 'rspec'
 
 
 gemspec
