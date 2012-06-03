@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), '../../../lib/cello/page')
+require File.join(File.dirname(__FILE__), '../../../lib/cello/structure/page')
 
 module BugBang
   class HomePage < Cello::Structure::Page
@@ -7,21 +7,21 @@ module BugBang
     element :about_page_button, :span, :text => 'Sobre o Autor'
     element :last_twelve_Posts, :div, :text => 'Ultimos 20 posts'
 
-    @@url = 'http://bugbang.com.br/'
+    @url = 'http://bugbang.com.br/'
     def initialize
-      super(@@url)
+      super(@url)
     end
   end
 
   class SearchResultPage < Cello::Structure::Page
     def initialize
-      super(@@url)
+      super(@url)
     end
   end
   
   class AboutPage < Cello::Structure::Page
     def initialize
-      super(@@url)
+      super(@url)
     end
   end
 end

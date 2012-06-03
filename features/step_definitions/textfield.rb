@@ -72,6 +72,8 @@ Then /^I should be able to know if the size of the textfield text is "(.*?)"$/ d
   @page.text_field_text_size.should == size.to_i
   @page.close
 end
+
+@wip
 Then /^I should fail when ask if the size of the textfield text is "(.*?)"$/ do |size|
   @page.text_field_text_size.should_not == size.to_i
   @page.close

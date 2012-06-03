@@ -77,16 +77,3 @@ Feature: Textfield
     Given I am on a page that has a textfield
     And There is a textfield with the text "Testing automation rocks"
     Then I should fail when ask if the size of the textfield text is "26"
-
-
-
-
-
-
-
-
-
-
-
-
-
