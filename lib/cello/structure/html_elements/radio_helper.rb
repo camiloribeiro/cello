@@ -32,11 +32,7 @@ module Cello
           return !foo
         end
         define_method "#{name}_checked_option?" do
-          send(name).each do |element|
-            if (element.checked?) 
-              element.value
-            end
-          end
+          send(name).each {|e| p e.value.size if (e.checked?) }
         end
       end
     end
