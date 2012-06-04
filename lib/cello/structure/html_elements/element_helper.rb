@@ -41,6 +41,7 @@ module Cello
 
      include CheckboxHelper
      include TextfieldHelper
+     include TextareaHelper
      include SelectHelper
      include DivHelper
      include RadioHelper
