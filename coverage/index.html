@@ -1,0 +1,446 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang='en' xml:lang='en' xmlns='http://www.w3.org/1999/xhtml'>
+  <head>
+    <meta http-equiv="Content-type" content="text/html;charset=UTF-8" />
+    <title>Cello C0 Coverage Information - RCov</title>
+    <link href="screen.css" media="all" rel="stylesheet" type="text/css" />
+    <link href="print.css" media="print" rel="stylesheet" type="text/css" />
+    
+    <script type="text/javascript" src="jquery-1.3.2.min.js"></script>
+    <script type="text/javascript" src="jquery.tablesorter.min.js"></script>
+    <script type="text/javascript" src="rcov.js"></script>
+  </head>
+  <body>
+    <h1>Cello C0 Coverage Information - RCov</h1>
+    
+
+    <noscript><style type="text/css">.if_js { display:none; }</style></noscript>
+
+    <div class="filters if_js">
+      <fieldset>
+        <label>File Filter:</label>
+        <select id="file_filter" class="filter">
+          <option value="all_files">Show All</option>
+          <option value="cello">cello/</option><option value="features">features/</option><option value="html_elements">html_elements/</option><option value="lib">lib/</option><option value="pages">pages/</option><option value="step_definitions">step_definitions/</option><option value="structure">structure/</option>
+        </select>
+      </fieldset>
+      <fieldset>
+        <label>Code Coverage Threshold:</label>
+        <select id="coverage_filter" class="filter">
+          <option value="all_coverage">Show All</option>
+          <option value="_10">&lt; 10% Coverage</option><option value="_20">&lt; 20% Coverage</option><option value="_30">&lt; 30% Coverage</option><option value="_40">&lt; 40% Coverage</option><option value="_50">&lt; 50% Coverage</option><option value="_60">&lt; 60% Coverage</option><option value="_70">&lt; 70% Coverage</option><option value="_80">&lt; 80% Coverage</option><option value="_90">&lt; 90% Coverage</option><option value="_100">&lt; 100% Coverage</option>
+          <option value="_110">= 100% Coverage</option>
+        </select>
+      </fieldset>
+    </div>
+
+    <div class="report_table_wrapper">
+      <table class='report' id='report_table'>
+        <thead>
+          <tr>
+            <th class="left_align">Name</th>
+            <th class="right_align">Total Lines</th>
+            <th class="right_align">Lines of Code</th>
+            <th class="left_align">Total Coverage</th>
+            <th class="left_align">Code Coverage</th>
+          </tr>
+        </thead>
+        <tfoot>
+          <tr>
+            <td class="left_align">TOTAL</td>
+            <td class='right_align'><tt>666</tt></td>
+            <td class='right_align'><tt>577</tt></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.04%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+            <td class="left_align"><div class="percent_graph_legend"><tt class='coverage_total'>90.99%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:91px"></div>
+            <div class="uncovered" style="width:9px"></div>
+          </div></td>
+          </tr>
+        </tfoot>
+        <tbody>
+          
+            <tr class="all_files all_coverage _110 features pages even">
+              <td class="left_align"><a href="features-pages-input_fields_rb.html">features/pages/input_fields.rb</a></td>
+              <td class='right_align'><tt>19</tt></td>
+              <td class='right_align'><tt>17</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _80 _90 _100 features step_definitions odd">
+              <td class="left_align"><a href="features-step_definitions-access_element_rb.html">features/step_definitions/access_element.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>16</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>79.17%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:79px"></div>
+            <div class="uncovered" style="width:21px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>75.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:75px"></div>
+            <div class="uncovered" style="width:25px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _90 _100 features step_definitions even">
+              <td class="left_align"><a href="features-step_definitions-checkbox_rb.html">features/step_definitions/checkbox.rb</a></td>
+              <td class='right_align'><tt>24</tt></td>
+              <td class='right_align'><tt>19</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>91.67%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>89.47%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:89px"></div>
+            <div class="uncovered" style="width:11px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 features step_definitions odd">
+              <td class="left_align"><a href="features-step_definitions-common_steps_rb.html">features/step_definitions/common_steps.rb</a></td>
+              <td class='right_align'><tt>27</tt></td>
+              <td class='right_align'><tt>21</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.59%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:93px"></div>
+            <div class="uncovered" style="width:7px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.48%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:90px"></div>
+            <div class="uncovered" style="width:10px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 features step_definitions even">
+              <td class="left_align"><a href="features-step_definitions-element_rb.html">features/step_definitions/element.rb</a></td>
+              <td class='right_align'><tt>49</tt></td>
+              <td class='right_align'><tt>42</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>95.92%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:96px"></div>
+            <div class="uncovered" style="width:4px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>95.24%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:95px"></div>
+            <div class="uncovered" style="width:5px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 features step_definitions odd">
+              <td class="left_align"><a href="features-step_definitions-radio_rb.html">features/step_definitions/radio.rb</a></td>
+              <td class='right_align'><tt>53</tt></td>
+              <td class='right_align'><tt>43</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.45%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>90.70%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:91px"></div>
+            <div class="uncovered" style="width:9px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 features step_definitions even">
+              <td class="left_align"><a href="features-step_definitions-textarea_rb.html">features/step_definitions/textarea.rb</a></td>
+              <td class='right_align'><tt>68</tt></td>
+              <td class='right_align'><tt>55</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>97.06%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:97px"></div>
+            <div class="uncovered" style="width:3px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>96.36%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:96px"></div>
+            <div class="uncovered" style="width:4px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 features step_definitions odd">
+              <td class="left_align"><a href="features-step_definitions-textfield_rb.html">features/step_definitions/textfield.rb</a></td>
+              <td class='right_align'><tt>80</tt></td>
+              <td class='right_align'><tt>65</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>93.75%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:94px"></div>
+            <div class="uncovered" style="width:6px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>92.31%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:92px"></div>
+            <div class="uncovered" style="width:8px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib even">
+              <td class="left_align"><a href="lib-cello_rb.html">lib/cello.rb</a></td>
+              <td class='right_align'><tt>14</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements odd">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-button_helper_rb.html">lib/cello/structure/html_elements/button_helper.rb</a></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements even">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-checkbox_helper_rb.html">lib/cello/structure/html_elements/checkbox_helper.rb</a></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class='right_align'><tt>20</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements odd">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-div_helper_rb.html">lib/cello/structure/html_elements/div_helper.rb</a></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _50 _60 _70 _80 _90 _100 lib cello structure html_elements even">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-dsl_rb.html">lib/cello/structure/html_elements/dsl.rb</a></td>
+              <td class='right_align'><tt>10</tt></td>
+              <td class='right_align'><tt>9</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>50.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:50px"></div>
+            <div class="uncovered" style="width:50px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>44.44%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:44px"></div>
+            <div class="uncovered" style="width:56px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements odd">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-element_helper_rb.html">lib/cello/structure/html_elements/element_helper.rb</a></td>
+              <td class='right_align'><tt>55</tt></td>
+              <td class='right_align'><tt>47</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements even">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-hidden_helper_rb.html">lib/cello/structure/html_elements/hidden_helper.rb</a></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements odd">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-link_helper_rb.html">lib/cello/structure/html_elements/link_helper.rb</a></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _90 _100 lib cello structure html_elements even">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-radio_helper_rb.html">lib/cello/structure/html_elements/radio_helper.rb</a></td>
+              <td class='right_align'><tt>55</tt></td>
+              <td class='right_align'><tt>55</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>89.09%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:89px"></div>
+            <div class="uncovered" style="width:11px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>89.09%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:89px"></div>
+            <div class="uncovered" style="width:11px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _30 _40 _50 _60 _70 _80 _90 _100 lib cello structure html_elements odd">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-select_helper_rb.html">lib/cello/structure/html_elements/select_helper.rb</a></td>
+              <td class='right_align'><tt>14</tt></td>
+              <td class='right_align'><tt>14</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>28.57%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:29px"></div>
+            <div class="uncovered" style="width:71px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>28.57%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:29px"></div>
+            <div class="uncovered" style="width:71px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _110 lib cello structure html_elements even">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-span_helper_rb.html">lib/cello/structure/html_elements/span_helper.rb</a></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class='right_align'><tt>8</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>100.00%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:100px"></div>
+            <div class="uncovered" style="width:0px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 lib cello structure html_elements odd">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-textarea_helper_rb.html">lib/cello/structure/html_elements/textarea_helper.rb</a></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class='right_align'><tt>35</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>94.29%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:94px"></div>
+            <div class="uncovered" style="width:6px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>94.29%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:94px"></div>
+            <div class="uncovered" style="width:6px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _100 lib cello structure html_elements even">
+              <td class="left_align"><a href="lib-cello-structure-html_elements-textfield_helper_rb.html">lib/cello/structure/html_elements/textfield_helper.rb</a></td>
+              <td class='right_align'><tt>32</tt></td>
+              <td class='right_align'><tt>32</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>93.75%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:94px"></div>
+            <div class="uncovered" style="width:6px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>93.75%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:94px"></div>
+            <div class="uncovered" style="width:6px"></div>
+          </div></td>
+            </tr>
+          
+            <tr class="all_files all_coverage _90 _100 lib cello structure odd">
+              <td class="left_align"><a href="lib-cello-structure-page_rb.html">lib/cello/structure/page.rb</a></td>
+              <td class='right_align'><tt>47</tt></td>
+              <td class='right_align'><tt>38</tt></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>87.23%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:87px"></div>
+            <div class="uncovered" style="width:13px"></div>
+          </div></td>
+              <td class="left_align"><div class="percent_graph_legend"><tt class=''>84.21%</tt></div>
+          <div class="percent_graph">
+            <div class="covered" style="width:84px"></div>
+            <div class="uncovered" style="width:16px"></div>
+          </div></td>
+            </tr>
+          
+        </tbody>
+      </table>
+    </div>
+
+    <p>Generated on Fri Jun 08 18:10:55 -0300 2012 with <a href="http://github.com/relevance/rcov">rcov 1.0.0</a></p>
+
+    <script type="text/javascript">
+      $(document).ready(function(){
+          $("#report_table").tablesorter({widgets: ['zebra'], textExtraction: 'complex'});
+        }
+      );
+      $('.filter').change(function(){
+        ff = '.' + $('#file_filter').val();
+        cf = '.' + $('#coverage_filter').val();
+        rows = 'table#report_table tbody tr';
+        // Hide all rows that don't match the filters
+        $(rows).not(cf).map(function() { $(this).hide(); });
+        $(rows).not(ff).map(function() { $(this).hide(); });
+        // Show and restripe all rows that match both filters
+        $(rows).filter(cf).filter(ff).each(function() {
+          $(this).show();
+          restripe();
+        });
+      })
+    </script>
+
+  </body>
+</html>

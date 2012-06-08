@@ -8,6 +8,7 @@ gem 'hitch'
 gem 'headless'
 gem 'rspec'
 gem 'ruby-debug'
+gem 'rcov'
 
 
 gemspec

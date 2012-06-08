@@ -2,3 +2,4 @@
 *.gem
 *.lock
 screenshot.png
+./coverage

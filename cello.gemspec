@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'hitch'
   s.add_development_dependency 'headless'
   s.add_development_dependency 'ruby-debug'
+  s.add_development_dependency 'rcov'
 
   s.add_dependency 'cucumber'
   s.add_dependency 'rspec'
