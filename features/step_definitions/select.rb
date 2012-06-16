@@ -29,3 +29,9 @@ Then /^I should fail when ask if the option "(.*?)" is selected$/ do |option|
   @page.select_selected.should_not == option
   @page.close
 end
+
+Then /^I should be able to go to the default option of it$/ do
+  @page.select_clear
+  @page.select_selected.should == "..."
+end
+

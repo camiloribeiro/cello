@@ -11,19 +11,19 @@ Feature: Select
     Then I should be able to select an option on it
     And be sure that the option setted is the option selected
 
-  @wip
   Scenario: Get selected
     Given I am on a page that has a select
     And the option "Cucumber" is selected
     Then I should be able to know the option "Cucumber" is selected
 
-  @wip
   Scenario: Get selected (counter proof)
     Given I am on a page that has a select
     And the option "Cucumber" is selected
     Then I should fail when ask if the option "Rspec" is selected
 
-  @pending
+  #TODO: Think a way to create a default value
+  @pending 
   Scenario: Go to default or empty
     Given I am on a page that has a select
+    And the option "Cucumber" is selected
     Then I should be able to go to the default option of it
