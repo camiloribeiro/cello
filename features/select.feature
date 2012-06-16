@@ -6,17 +6,22 @@ Feature: Select
     Given I am on a page that has a select
     Then I should be able to get the options available of it
     
-  @wip
   Scenario: Select a value
     Given I am on a page that has a select
     Then I should be able to select an option on it
     And be sure that the option setted is the option selected
 
-  @pending
+  @wip
   Scenario: Get selected
     Given I am on a page that has a select
-    And the option "Cucumber" is setted
+    And the option "Cucumber" is selected
     Then I should be able to know the option "Cucumber" is selected
+
+  @wip
+  Scenario: Get selected (counter proof)
+    Given I am on a page that has a select
+    And the option "Cucumber" is selected
+    Then I should fail when ask if the option "Rspec" is selected
 
   @pending
   Scenario: Go to default or empty

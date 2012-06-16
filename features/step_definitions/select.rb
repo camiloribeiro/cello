@@ -15,3 +15,17 @@ Then /^be sure that the option setted is the option selected$/ do
   @page.select_is("Cucumber").should be_true
   @page.close
 end
+
+Given /^the option "(.*?)" is selected$/ do |option|
+  @page.select_select option
+end
+
+Then /^I should be able to know the option "(.*?)" is selected$/ do |option|
+  @page.select_selected.should == option
+  @page.close
+end
+
+Then /^I should fail when ask if the option "(.*?)" is selected$/ do |option|
+  @page.select_selected.should_not == option
+  @page.close
+end
