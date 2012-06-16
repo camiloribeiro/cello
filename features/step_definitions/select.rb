@@ -7,3 +7,11 @@ Then /^I should be able to get the options available of it$/ do
   @page.close
 end
 
+Then /^I should be able to select an option on it$/ do
+  @page.select_select("Cucumber")
+end
+
+Then /^be sure that the option setted is the option selected$/ do
+  @page.select_is("Cucumber").should be_true
+  @page.close
+end

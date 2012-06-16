@@ -9,6 +9,12 @@ module Cello
           end
           options
         end
+        define_method "#{name}_select" do |option|
+          send(name).select option
+        end
+        define_method "#{name}_is" do |option|
+          send(name).selected_options.last.text == option
+        end
         define_method "clear_#{name}" do
           send(name).clear
         end

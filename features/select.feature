@@ -6,7 +6,7 @@ Feature: Select
     Given I am on a page that has a select
     Then I should be able to get the options available of it
     
-  @pending
+  @wip
   Scenario: Select a value
     Given I am on a page that has a select
     Then I should be able to select an option on it
