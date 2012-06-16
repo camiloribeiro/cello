@@ -9,6 +9,7 @@ module StaticPages
       element :checkbox,  :checkbox, :id => 'check1'
       element :textarea,  :textarea, :id => 'area1'
       element :radios,  :radios, :name => 'items'
+      element :select,  :select, :id => 'select1'
 
       @@url = 'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
       def initialize

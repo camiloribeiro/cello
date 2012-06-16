@@ -6,5 +6,9 @@ describe Cello::Structure::SelectHelper do
     end
     it "clear the select" do
     end
+    it "go to default or empty option" do
+    end
+    it "return the selected option" do
+    end
   end
 end
