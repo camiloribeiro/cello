@@ -11,7 +11,7 @@ This framework isn't officially released or stable yet, but the concept is alrea
 
 What a funny name :-p!
 ----------------------
-The name is Cello not just because I play and love it, but because as a music composition consists of steps that - when synchronized - guide the musician to play wonderful songs, the acceptance automated tests are steps that when synchronized guide the developer to keep coding wonderful pieces of business value.
+The name is Cello not just because I play and love it, but because as a music composition consists of steps that hen synchronized guide the musician to play wonderful songs, the acceptance automated tests are steps that when synchronized guide the developer to keep coding wonderful pieces of business value.
 
 What is the idea?
 -----------------
