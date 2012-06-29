@@ -9,6 +9,7 @@ require 'cucumber'
 
 #internal dependences
 require File.join(File.dirname(__FILE__), './cello/structure/page')
+require File.join(File.dirname(__FILE__), './cello/structure/browser')
 
 module Cello
 end
