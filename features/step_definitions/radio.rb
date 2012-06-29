@@ -3,7 +3,9 @@ Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file|
 end
 
 Given /^I am on a page that has a radio group with the follow opitions:$/ do |radios|
-  @page = StaticPages::Site::InputPage.new
+  @page = StaticPages::Site::Firefox.new
+  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.visit
   radios.raw.each do |radio|
     @page.radios_contains(radio)
   end

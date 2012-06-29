@@ -1,5 +1,7 @@
 Given /^I am on a page that has a select$/ do
-  @page = StaticPages::Site::InputPage.new
+  @page = StaticPages::Site::Firefox.new
+  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.visit
 end
 
 Then /^I should be able to get the options available of it$/ do

@@ -2,16 +2,28 @@ Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file|
   require file 
 end
 
+Given /^I am on a page that has a element$/ do
+  @page = StaticPages::Site::Firefox.new
+  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.visit
+end
+
 Given /^I am on a page that has a textfield$/ do
-  @page = StaticPages::Site::InputPage.new
+  @page = StaticPages::Site::Firefox.new
+  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.visit
 end
 
 Given /^I am on a page that has a textarea$/ do
-  @page = StaticPages::Site::InputPage.new
+  @page = StaticPages::Site::Firefox.new
+  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.visit
 end
 
 Given /^I am on a page that has a checkbox$/ do
-  @page = StaticPages::Site::InputPage.new
+  @page = StaticPages::Site::Firefox.new
+  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.visit
 end
 
 And /^There is a textfield with the text "(.*?)"$/ do |text|

@@ -10,10 +10,14 @@ module StaticPages
       element :textarea,  :textarea, :id => 'area1'
       element :radios,  :radios, :name => 'items'
       element :select,  :select, :id => 'select1'
+      element :link,  :link, :id => 'link1'
+      
+      def get_url
+        'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
+      end
 
-      @@url = 'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
-      def initialize
-        super(@@url)
+      def initialize(teste)
+        super(teste)
       end
     end
   end
