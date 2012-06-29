@@ -1,14 +1,11 @@
 source "http://rubygems.org"
 
-gem 'selenium-webdriver'
+gem 'pry'
+gem 'simplecov'
 gem 'watir-webdriver'
 gem 'cucumber'
 gem 'rake'
-gem 'hitch'
 gem 'headless'
 gem 'rspec'
-gem 'ruby-debug'
-gem 'rcov'
-
 
 gemspec
