@@ -4,25 +4,25 @@ end
 
 Given /^I am on a page that has a element$/ do
   @page = StaticPages::Site::Firefox.new
-  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.set_context StaticPages::Site::InputPage
   @page.visit
 end
 
 Given /^I am on a page that has a textfield$/ do
   @page = StaticPages::Site::Firefox.new
-  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.set_context StaticPages::Site::InputPage
   @page.visit
 end
 
 Given /^I am on a page that has a textarea$/ do
   @page = StaticPages::Site::Firefox.new
-  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.set_context StaticPages::Site::InputPage
   @page.visit
 end
 
 Given /^I am on a page that has a checkbox$/ do
   @page = StaticPages::Site::Firefox.new
-  @page.set_context(StaticPages::Site::InputPage.new(@page))
+  @page.set_context StaticPages::Site::InputPage
   @page.visit
 end
 
