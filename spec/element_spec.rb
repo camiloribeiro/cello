@@ -1,13 +1,7 @@
 require File.join(File.dirname(__FILE__), '../lib/cello/structure/html_elements/element_helper.rb')
 
-describe Cello::Structure::ElementHelper do
-  describe "element" do
-    it "Define a method in execution time" do
-    end
-    it "Define a method to define extra methods in execution time" do
-    end
-  end
-  describe "define_extras" do
+describe "Class with element" do
+  describe "Element interface" do
     it "Verify if the element exists" do
     end
     it "Click on the element" do
@@ -22,3 +16,4 @@ describe Cello::Structure::ElementHelper do
     end
   end
 end
+

@@ -2,9 +2,6 @@ Feature: Element
   As a developer
   I want use element to run my tests
 
-  @pending
-  Scenario: Use as element and send a native watir/selenium method
-  
   Scenario: Click at the element
     Given I am on a page that has a element
     And that element is named as: 
