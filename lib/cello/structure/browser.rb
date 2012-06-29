@@ -18,7 +18,7 @@ module Cello
       end
 
       def set_context(page)
-        @context = page
+        @context = page.new(@browser)
       end
       attr_reader :context
   
