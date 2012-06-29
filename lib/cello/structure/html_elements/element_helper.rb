@@ -11,7 +11,7 @@ module Cello
       def element(name, type, *args)
         class_eval do
           define_method name do
-            browser.send(type, *args)
+            parent.browser.send(type, *args)
           end
 
           define_extras(name, type)
