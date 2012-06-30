@@ -7,7 +7,7 @@ Given /^I have a browser with no context \(blank page\)$/ do
 end
 
 When /^I ask for the context inputs$/ do
-  @browser.set_context StaticPages::Site::InputPage.new(@browser)
+  @browser.context = StaticPages::Site::InputPage.new(@browser)
 end
 
 When /^and I ask to visit the page$/ do
@@ -15,15 +15,15 @@ When /^and I ask to visit the page$/ do
 end
 
 Then /^I should see the page inputs$/ do
-  @browser.get_title.should == "Inputs page"
+  @browser.title.should == "Inputs page"
   @browser.close
 end
 
 Given /^I am in the inputs context$/ do
   @browser = StaticPages::Site::Firefox.new
-  @browser.set_context StaticPages::Site::InputPage.new(@browser)
+  @browser.context = StaticPages::Site::InputPage.new(@browser)
   @browser.visit
-  @browser.get_title.should == "Inputs page"
+  @browser.title.should == "Inputs page"
 end
 
 When /^I ask for fill the textfield$/ do
@@ -43,7 +43,7 @@ When /^I click on the simple page link$/ do
 end
 
 When /^I ask to use the simple page context$/ do
-  @browser.set_context StaticPages::Site::ResponsePage.new(@browser)
+  @browser.context = StaticPages::Site::ResponsePage.new(@browser)
 end
 
 Then /^I should fail when try access the old textfield$/ do
