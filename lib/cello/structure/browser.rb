@@ -5,6 +5,8 @@ require "headless"
 module Cello
   module Structure
     class Browser
+      attr_accessor :context
+      attr_reader :browser
 
       def initialize(browser)
         @headless = Headless.new
@@ -12,16 +14,14 @@ module Cello
         @browser = Watir::Browser.new browser
       end
       
-      attr_reader :browser   
       def visit
         @browser.goto @context.get_url
       end
 
-      def set_context(page)
+      def context(page)
         @context = page.new(@browser)
       end
-      attr_reader :context
-  
+
       def search(text)
        @browser.text.include? text 
       end
@@ -31,20 +31,21 @@ module Cello
         @headless.destroy
       end
 
-      def get_picture
+      def get_screenshot
         @browser.driver.save_screenshot 'screenshot.png'
       end
-      def get_title
+
+      def title
         @browser.title
       end
-      def get_response_time
+
+      def response_time
         #pending
       end
 
-        def method_missing(method_name, *arguments)
-          @context.send(method_name, *arguments)
-        end
-
+      def method_missing(method_name, *arguments)
+        @context.send(method_name, *arguments)
+      end
     end
   end
 end
