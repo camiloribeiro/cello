@@ -7,5 +7,6 @@ gem 'cucumber'
 gem 'rake'
 gem 'headless'
 gem 'rspec'
+gem "nyan-cat-formatter"
 
 gemspec
