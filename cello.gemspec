@@ -27,6 +27,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'rake'
   s.add_development_dependency 'rspec'
   s.add_development_dependency 'headless'
+  s.add_development_dependency 'nyan-cat-formatter'
 
   s.add_dependency 'cucumber'
   s.add_dependency 'rspec'
