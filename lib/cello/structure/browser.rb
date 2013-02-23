@@ -9,8 +9,9 @@ module Cello
       attr_reader :browser
 
       def initialize(browser)
-        @headless = Headless.new
-        @headless.start
+#        require 'pry'; binding.pry
+#        @headless = Headless.new
+#        @headless.start
         @browser = Watir::Browser.new browser
       end
       
@@ -28,7 +29,7 @@ module Cello
 
       def close
         @browser.close
-        @headless.destroy
+#        @headless.destroy
       end
 
       def get_screenshot
