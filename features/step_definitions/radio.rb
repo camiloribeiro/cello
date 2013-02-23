@@ -1,6 +1,4 @@
-Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file| 
-  require file 
-end
+require "cello"
 
 Given /^I am on a page that has a radio group with the follow opitions:$/ do |radios|
   @page = StaticPages::Site::Firefox.new

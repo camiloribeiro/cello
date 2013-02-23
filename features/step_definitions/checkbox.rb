@@ -1,6 +1,4 @@
-Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file| 
-  require file 
-end
+require "cello"
 
 Then /^I should be able to verify if it is checked$/ do
   @page.checkbox_is_checked?

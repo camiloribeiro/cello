@@ -1,6 +1,4 @@
-Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file| 
-  require file 
-end
+require "cello"
 
 Then /^I should can knows if this page has a textarea$/ do
   @page.textarea_is_real?.should be_true

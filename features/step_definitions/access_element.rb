@@ -1,6 +1,4 @@
-Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file| 
-  require file 
-end
+require "cello"
 
 Then /^I should be able to write "(.*?)" in a element using id$/ do |text|
   @page.text_field_fill_with(text)

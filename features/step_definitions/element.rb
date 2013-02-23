@@ -1,6 +1,4 @@
-Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file| 
-  require file 
-end
+require "cello"
 
 Given /^that element is named as:$/ do |elements|
   elements.raw.each do |name|

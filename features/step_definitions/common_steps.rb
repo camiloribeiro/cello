@@ -1,6 +1,4 @@
-Dir[File.dirname(__FILE__) + "/../../pages/*.rb"].each do |file| 
-  require file 
-end
+require "cello"
 
 Given /^I am on a page that has a element$/ do
   @page = StaticPages::Site::Firefox.new
