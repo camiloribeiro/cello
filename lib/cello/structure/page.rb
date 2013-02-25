@@ -7,12 +7,18 @@ module Cello
   module Structure
     class Page
       extend Cello::Structure::ElementHelper
+      attr_reader :engine
 
-      attr_reader :parent
+      @url = nil
 
-      def initialize(parent)
-        @parent = parent
+      def initialize(engine)
+        @engine = engine
       end
+
+      def visit
+        @engine.goto @url
+      end
+
     end
   end
 end

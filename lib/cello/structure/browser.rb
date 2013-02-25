@@ -12,7 +12,7 @@ module Cello
       end
       
       def visit
-        @browser.goto @context.get_url
+        @context.visit
       end
 
       def context(page)
@@ -25,7 +25,6 @@ module Cello
 
       def close
         @browser.close
-#        @headless.destroy
       end
 
       def get_screenshot
