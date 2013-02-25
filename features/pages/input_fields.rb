@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), '../../lib/cello')
+require "cello"
 
 module StaticPages
   module Site
