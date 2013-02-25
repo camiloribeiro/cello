@@ -1,6 +1,5 @@
 require "rubygems"
 require "watir-webdriver"
-require "headless"
 
 module Cello
   module Structure
@@ -9,9 +8,6 @@ module Cello
       attr_reader :browser
 
       def initialize(browser)
-#        require 'pry'; binding.pry
-#        @headless = Headless.new
-#        @headless.start
         @browser = Watir::Browser.new browser
       end
       
