@@ -1,12 +1,19 @@
-require File.join(File.dirname(__FILE__), '../lib/cello/structure/html_elements/select_helper.rb')
+require "mock/page"
 
 describe Cello::Structure::SelectHelper do
   describe "define_extras_for_select" do
-    it "Select an option" do
+    before(:all) do
+      @page = Mock::Site::MockPage.new "foo"
     end
-    it "go to default or empty option" do
+    it "Select an option method exists" do
+      (@page.methods.map.include? "select_select").should be_true
     end
-    it "return the selected option" do
+    it "go to default or empty option method exists" do
+      pending
+      (@page.methods.map.include? "select_clear").should be_true
+    end
+    it "return the selected option method exists" do
+      (@page.methods.map.include? "select_selected").should be_true
     end
   end
 end
