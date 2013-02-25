@@ -1,4 +1,4 @@
-require "cello"
+require File.join(File.dirname(__FILE__),"../../lib/cello/structure/page")
 
 module Mock
   module Site

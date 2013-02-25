@@ -1,4 +1,4 @@
-require File.join(File.dirname(__FILE__), './mock/page')
+require 'mock/page'
 
 describe "Class with element" do
   describe "Element interface" do
