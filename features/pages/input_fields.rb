@@ -14,6 +14,14 @@ module StaticPages
       
       @url = 'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
 
+      def initialize(teste)
+        super(teste)
+      end
+
+      def visit
+        @engine.goto @url
+      end
+
     end
   end
 end
