@@ -18,8 +18,9 @@ Then /^I should see the page inputs$/ do
 end
 
 Given /^I am in the inputs context$/ do
-  @browser = StaticPages::Site::Phantom.new
-  @browser.context StaticPages::Site::InputPage
+  steps %Q{
+    Given I have a browser with no context (blank page)
+    When I ask for the context inputs}
   @browser.visit
   @browser.title.should == "Inputs page"
 end
