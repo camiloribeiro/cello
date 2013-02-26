@@ -12,15 +12,12 @@ module StaticPages
       element :select,  :select, :id => 'select1'
       element :link,  :link, :id => 'link1'
       
-      @url = 'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
+      @@url = 'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
 
-      def initialize(teste)
-        super(teste)
+      def initialize(engine)
+        super(engine)
       end
 
-      def get_url
-        'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
-      end
     end
   end
 end
