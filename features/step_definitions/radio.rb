@@ -1,7 +1,7 @@
 require "cello"
 
 Given /^I am on a page that has a radio group with the follow opitions:$/ do |radios|
-  @page = StaticPages::Site::Firefox.new
+  @page = StaticPages::Site::Phantom.new
   @page.context StaticPages::Site::InputPage
   @page.visit
   radios.raw.each do |radio|

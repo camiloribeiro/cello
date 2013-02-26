@@ -1,5 +1,5 @@
 Given /^I am on a page that has a select$/ do
-  @page = StaticPages::Site::Firefox.new
+  @page = StaticPages::Site::Phantom.new
   @page.context StaticPages::Site::InputPage
   @page.visit
 end

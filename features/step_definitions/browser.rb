@@ -1,7 +1,7 @@
 require "cello"
 
 Given /^I have a browser with no context \(blank page\)$/ do
-  @browser = StaticPages::Site::Firefox.new
+  @browser = StaticPages::Site::Phantom.new
 end
 
 When /^I ask for the context inputs$/ do
@@ -18,7 +18,7 @@ Then /^I should see the page inputs$/ do
 end
 
 Given /^I am in the inputs context$/ do
-  @browser = StaticPages::Site::Firefox.new
+  @browser = StaticPages::Site::Phantom.new
   @browser.context StaticPages::Site::InputPage
   @browser.visit
   @browser.title.should == "Inputs page"
