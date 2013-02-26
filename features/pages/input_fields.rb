@@ -18,10 +18,9 @@ module StaticPages
         super(teste)
       end
 
-      def visit
-        @engine.goto @url
+      def get_url
+        'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
       end
-
     end
   end
 end

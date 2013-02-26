@@ -12,7 +12,7 @@ module Cello
       end
       
       def visit
-        @context.visit
+        @browser.goto @context.get_url
       end
 
       def context(page)
