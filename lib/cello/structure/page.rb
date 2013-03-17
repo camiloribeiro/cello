@@ -9,14 +9,16 @@ module Cello
       extend Cello::Structure::ElementHelper
       attr_reader :engine
 
-      @@url = nil
-
       def initialize(engine)
         @engine = engine
       end
 
       def visit
         @engine.goto @@url
+      end
+
+      def self.url(url)
+        @@url = url
       end
 
     end
