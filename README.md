@@ -1,4 +1,4 @@
-CELLO
+CELLO  ♩♪ ♮  d[^_^]b  ♫ ♬ ♭♯
 =====
 
 [![Build Status](https://secure.travis-ci.org/camiloribeiro/cello.png)](http://travis-ci.org/camiloribeiro/cello])
