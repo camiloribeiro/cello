@@ -1,5 +1,2 @@
 *.sw*
 *.gem
-*.lock
-screenshot.png
-coverage/*
