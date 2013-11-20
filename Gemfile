@@ -8,5 +8,6 @@ gem 'rake'
 gem 'headless'
 gem 'rspec'
 gem "nyan-cat-formatter"
+gem "sourcify", "~> 0.5.0"
 
 gemspec
