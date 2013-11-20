@@ -1,4 +1,4 @@
-require 'cello/version'
+require File.join(File.dirname(__FILE__), './cello/version')
 require 'rubygems'
 require 'bundler/setup'
 
