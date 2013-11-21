@@ -91,7 +91,7 @@ ROADMAP
 LICENSE
 =======
 
-Copyright 2012 Camilo Ribeiro cribeiro@thoughtworks.com
+Copyright 2012 - 2013 Camilo Ribeiro camilo@camiloribeiro.com
 
 This file is part of Cello.
 
