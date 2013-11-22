@@ -33,4 +33,6 @@ Gem::Specification.new do |s|
   s.add_dependency 'rspec'
   s.add_dependency 'watir-webdriver'
   s.add_dependency 'sourcify'
+  s.add_dependency 'icecream'
+
 end
