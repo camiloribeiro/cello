@@ -8,6 +8,7 @@ Gem::Specification.new do |s|
   s.authors     = ["Camilo Ribeiro"]
   s.email       = ["cribeiro@thoughtworks.com"]
   s.homepage    = "http://github.com/camiloribeiro/cello"
+  s.license     = "Apache 2.0"
   s.summary     = %q{Fast and simple Page-Object with BDD}
   s.description = %q{Cello is a framework that allows automate acceptance tests using page-object}
 
