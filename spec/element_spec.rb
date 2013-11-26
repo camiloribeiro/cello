@@ -1,4 +1,5 @@
 require 'mock/page'
+require File.dirname(__FILE__) + "/spec_helper"
 
 describe "Class with element" do
   describe "Element interface" do
