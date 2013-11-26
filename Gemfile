@@ -10,5 +10,6 @@ gem 'rspec'
 gem "nyan-cat-formatter"
 gem "sourcify", "~> 0.5.0"
 gem 'coveralls', require: false
+gem 'simplecov', :require => false, :group => :test
 
 gemspec
