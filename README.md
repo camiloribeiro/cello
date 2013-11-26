@@ -1,4 +1,4 @@
-CELLO  ♩♪ ♮  d[^_^]b  ♫ ♬ ♭♯
+CELLO 
 =====
 
 [![Gem Version](https://badge.fury.io/rb/cello.png)](http://badge.fury.io/rb/cello)
