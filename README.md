@@ -6,6 +6,7 @@ CELLO  ♩♪ ♮  d[^_^]b  ♫ ♬ ♭♯
 [![Code Climate](https://codeclimate.com/github/camiloribeiro/cello.png)](https://codeclimate.com/github/camiloribeiro/cello)
 [![Dependency Status](https://gemnasium.com/camiloribeiro/cello.png)](https://gemnasium.com/camiloribeiro/cello)
 [![Coverage Status](https://coveralls.io/repos/camiloribeiro/cello/badge.png)](https://coveralls.io/r/camiloribeiro/cello)
+[![endorse](https://api.coderwall.com/camiloribeiro/endorsecount.png)](https://coderwall.com/camiloribeiro)
 
 What?
 -----
