@@ -1,4 +1,5 @@
 require File.join(File.dirname(__FILE__),"../../lib/cello/structure/page")
+require File.dirname(__FILE__) + "/spec_helper"
 
 module Mock
   module Site

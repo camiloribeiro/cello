@@ -1,4 +1,5 @@
 require File.join(File.dirname(__FILE__), '../lib/cello/structure/page.rb')
+require File.dirname(__FILE__) + "/spec_helper"
 
 describe Cello::Structure::Page do
   describe "Create a page" do

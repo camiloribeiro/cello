@@ -1,4 +1,5 @@
 require "mock/page"
+require File.dirname(__FILE__) + "/spec_helper"
 
 describe Cello::Structure::TextareaHelper do
   describe "define_extras_for_textarea" do

@@ -1,5 +1,4 @@
 require 'rspec'
-require 'sudoku'
 require 'coveralls'
 
 Coveralls.wear!
