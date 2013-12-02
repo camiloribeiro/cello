@@ -2,7 +2,7 @@ require "cello"
 
 module StaticPages
   module Site
-    class InputPage < Cello::Structure::Page
+    class InputPage < Cello::PageObjects::Page
       element :text_field,  :text_field, :id => 'text1'
       element :text_fieldname,  :text_field, :name => 'text1'
       element :text_fieldxpath,  :text_field, :xpah, '//*[@id="text1"]'

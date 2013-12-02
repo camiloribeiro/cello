@@ -2,7 +2,7 @@ require File.join(File.dirname(__FILE__), '../../lib/cello')
 
 module StaticPages
   module Site
-    class ResponsePage < Cello::Structure::Page
+    class ResponsePage < Cello::PageObjects::Page
       element :text,  :text_field, :id => 'new_element'
       
       def get_url
