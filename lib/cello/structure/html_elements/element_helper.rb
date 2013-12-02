@@ -3,7 +3,7 @@ Dir[File.dirname(__FILE__) + "/*.rb"].each do |file|
 end
 
 module Cello
-  module Structure
+  module PageObjects
     module ElementHelper
       
       private

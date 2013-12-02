@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module TextfieldHelper
       def define_extras_for_text_field(name)
         define_method "#{name}_clear" do

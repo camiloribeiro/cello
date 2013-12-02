@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module SpanHelper
       def define_extras_for_span(name)
       end

@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module SelectHelper
       def define_extras_for_select(name)
         include LogHelper

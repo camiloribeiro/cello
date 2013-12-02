@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module DivHelper
       def define_extras_for_div(name)
       end

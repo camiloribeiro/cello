@@ -3,9 +3,9 @@ require "rubygems"
 require "rspec"
 
 module Cello
-  module Structure
+  module PageObjects
     class Page
-      extend Cello::Structure::ElementHelper
+      extend Cello::PageObjects::ElementHelper
       attr_reader :engine
 
       def initialize(engine)

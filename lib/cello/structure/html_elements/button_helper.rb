@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module ButtonHelper
       def define_extras_for_button(name)
       end

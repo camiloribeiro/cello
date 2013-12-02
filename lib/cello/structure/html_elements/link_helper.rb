@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module LinkHelper
       def define_extras_for_link(name)
       end

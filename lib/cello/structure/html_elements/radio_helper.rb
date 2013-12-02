@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module RadioHelper
       def define_extras_for_radios(name)
         define_method "#{name}_is_real?" do

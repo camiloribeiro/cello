@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module TextareaHelper
       def define_extras_for_textarea(name)
         define_method "#{name}_is_enable?" do

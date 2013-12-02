@@ -2,7 +2,7 @@ require "rubygems"
 require "watir-webdriver"
 
 module Cello
-  module Structure
+  module PageObjects
     class Browser
       attr_accessor :context
       attr_reader :browser

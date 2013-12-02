@@ -1,7 +1,7 @@
 #require 'sourcify'
 
 module Cello
-  module Structure
+  module PageObjects
     module LogHelper
       
       def logger(name, method, type, params=nil)

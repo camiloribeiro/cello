@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module DslHelper
       def def textfield_domain
        contains = "#{name}_contains"

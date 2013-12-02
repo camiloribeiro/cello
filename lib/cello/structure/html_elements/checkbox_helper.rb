@@ -1,5 +1,5 @@
 module Cello
-  module Structure
+  module PageObjects
     module CheckboxHelper
       def define_extras_for_checkbox(name)
         define_method "#{name}_check" do
