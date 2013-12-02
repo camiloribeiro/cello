@@ -1,7 +1,7 @@
-require File.join(File.dirname(__FILE__), '../../../lib/cello/structure/page')
+require File.join(File.dirname(__FILE__), '../../../lib/cello/pageobjects/page')
 
 module BugBang
-  class HomePage < Cello::Structure::Page
+  class HomePage < Cello::PageObjects::Page
     element :search_field,  :text_field, :id => 's'
     element :search_button,  :button, :id => 'go'
     element :about_page_button, :span, :text => 'Sobre o Autor'
@@ -13,13 +13,13 @@ module BugBang
     end
   end
 
-  class SearchResultPage < Cello::Structure::Page
+    class SearchResultPage < Cello::PageObjects::Page
     def initialize
       super(@@url)
     end
   end
   
-  class AboutPage < Cello::Structure::Page
+  class AboutPage < Cello::PageObjects::Page
     def initialize
       super(@@url)
     end
