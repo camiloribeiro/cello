@@ -1,7 +1,7 @@
 require 'mock/page'
 require "pry"
 
-describe Cello::Structure::CheckboxHelper do
+describe Cello::PageObjects::CheckboxHelper do
   describe "define_extras_for_checkbox" do
     before(:all) do
       @page = Mock::Site::MockPage.new "foo"

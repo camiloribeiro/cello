@@ -1,9 +1,9 @@
-require File.join(File.dirname(__FILE__),"../../lib/cello/structure/page")
+require File.join(File.dirname(__FILE__),"../../lib/cello/pageobjects/page")
 require File.dirname(__FILE__) + "/../spec_helper"
 
 module Mock
   module Site
-    class MockPage < Cello::Structure::Page
+    class MockPage < Cello::PageObjects::Page
       element :element,  :element, :id => 'elem1'
       element :text_field,  :text_field, :id => 'text1'
       element :text_fieldname,  :text_field, :name => 'text1'

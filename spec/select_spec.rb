@@ -1,7 +1,7 @@
 require "mock/page"
 require File.dirname(__FILE__) + "/spec_helper"
 
-describe Cello::Structure::SelectHelper do
+describe Cello::PageObjects::SelectHelper do
   describe "define_extras_for_select" do
     before(:all) do
       @page = Mock::Site::MockPage.new "foo"
