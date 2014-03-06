@@ -2,8 +2,6 @@ require "rest-client"
 
 class Elem < Struct.new(:element_id, :element_name, :element_type); end
 class Recorder
-  recorder = Recorder.new
-
   def get_elements page_url
     foo = RestClient.get page_url 
       title = foo.scan(/\<title\>(.*?)\<\/title\>/)[0].to_s.gsub!(/\W+/, ' ').strip!.split(" ").each { |w| w.capitalize! }.join("")
@@ -31,5 +29,4 @@ class Recorder
   page += "end\n"
   puts page
   end
-  recorder.get_elements 'https://secure.wufoo.com/gallery/install/template/29/'
 end
