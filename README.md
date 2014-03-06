@@ -9,21 +9,21 @@ CELLO
 
 
           ,;,
-         #(|)#         Cello is a framework for automated web UI tests based on Watir-Webdriver.
-         #|||#         It may uses the Cucumber readable behavior specification language. 
-          |||          The tests are based on the Page Object Model, in a lightweght and intuitive way.
-          |||       /  It is written in Ruby, and extended by metaprogramming and some magic.
-          |||    /#/      
-         _|||_  / /    Cello isn't officially released or stable yet, but the concept is already done. 
-       .' ||| '/ /     It consists in a a group of patterns for describing your pages as classes. 
-      /   ||| / /      The interface is designed by a DSL focussing in the Browser's user. 
+         #(|)#        Cello is a framework for automated web UI tests based on Watir-Webdriver.
+         #|||#        It may uses the Cucumber readable behavior specification language. 
+          |||         The tests are based on the Page Object Model, in a lightweght and intuitive way.
+          |||       / It is written in Ruby, and extended by metaprogramming and some magic.
+          |||    /#/     
+         _|||_  / /   Cello isn't officially released or stable yet, but the concept is already done. 
+       .' ||| '/ /    It consists in a a group of patterns for describing your pages as classes. 
+      /   ||| / /     The interface is designed by a DSL focussing in the Browser's user. 
       |   |||/ /|
-      |_  ||/ /_|      You can control as many browsers as needed, and create iteractions between actors.
-      ,_)=|/|/ (       You can also get a page with its elements by running a "cello get url". 
-      )   /|/   (      This is the way we can use the "record" feature to make it easier to automate.
+      |_  ||/ /_|     You can control as many browsers as needed, and create iteractions between actors.
+      ,_)=|/|/ (      You can also get a page with its elements by running a "cello get url". 
+      )   /|/   (     This is the way we can use the "record" feature to make it easier to automate.
      /   /|/|    \
-    |   / /||     |    It uses metaprog, so it doesn't rely in bad generated code from the rec feature.
-    |  / /~~~/    |    It merges the power of selenium, the page object model and gherkin documentation.
+    |   / /||     |   It uses metaprog, so it doesn't rely in bad generated code from the rec feature.
+    |  / /~~~/    |   It merges the power of selenium, the page object model and gherkin documentation.
      \/ / \ /     /
      /`/.__Y__.-'      
     /#/    | 
