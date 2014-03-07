@@ -1,0 +1,2 @@
+module Cello::Commands
+end

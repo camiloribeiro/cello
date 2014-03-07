@@ -12,13 +12,11 @@ require File.join(File.dirname(__FILE__), './cello/pageobjects/page')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/browser')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/recorder')
 
-module Cello
-  def self.get_page_object url
-    recorder = Recorder.new
-    recorder.get_elements url
-  end
+# commands
+require 'cello/commands'
+require File.join(File.dirname(__FILE__), './cello/commands/main')
+require File.join(File.dirname(__FILE__), './cello/commands/help')
+require File.join(File.dirname(__FILE__), './cello/commands/version')
 
-  def self.version
-    puts Cello::VERSION
-  end
+module Cello
 end

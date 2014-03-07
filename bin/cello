@@ -1,7 +1,4 @@
 #!/usr/bin/env ruby
-
 require 'cello'
 
-Cello.version
-Cello.get_page_object(ARGV[0])
-
+Cello::Commands::Main.run
