@@ -24,6 +24,7 @@ require File.join(File.dirname(__FILE__), './cello/commands/main')
 require File.join(File.dirname(__FILE__), './cello/commands/help')
 require File.join(File.dirname(__FILE__), './cello/commands/version')
 require File.join(File.dirname(__FILE__), './cello/commands/new_project')
+require File.join(File.dirname(__FILE__), './cello/commands/new_page')
 
 module Cello
 end

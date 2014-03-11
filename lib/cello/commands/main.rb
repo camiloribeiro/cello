@@ -12,8 +12,11 @@ class Cello::Commands::Main
       when "-v", "--version", "version"
         Cello::Commands::Version.run
         exit 0
-      when "-np", "--create-project", "newproject"
+      when "-np", "--new-project", "newproject"
         Cello::Commands::NewProject.run
+        exit 0
+      when "-nP", "--new-page", "newpage"
+        Cello::Commands::NewPage.run
         exit 0
       end
 
