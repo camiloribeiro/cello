@@ -1,4 +1,6 @@
 *.sw*
+boot.sh
 Gemfile.lock
 *.gem
 /coverage
+/testdir

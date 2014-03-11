@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+require 'cello'
+
+Cello::Commands::Main.run

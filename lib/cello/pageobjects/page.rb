@@ -1,5 +1,4 @@
 require File.join(File.dirname(__FILE__), "./html_elements/element_helper")
-require "rubygems"
 require "rspec"
 
 module Cello
