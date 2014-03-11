@@ -18,6 +18,9 @@ class Cello::Commands::Main
       when "-nP", "--new-page", "newpage"
         Cello::Commands::NewPage.run
         exit 0
+      when "-d", "--debug", "debug"
+        Cello::Commands::Debug.run
+        exit 0
       end
 
       unless system("cello #{cmd}", *args)
