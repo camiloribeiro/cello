@@ -12,6 +12,9 @@ class Cello::Commands::Main
       when "-v", "--version", "version"
         Cello::Commands::Version.run
         exit 0
+      when "-np", "--create-project", "newproject"
+        Cello::Commands::NewProject.run
+        exit 0
       end
 
       unless system("cello #{cmd}", *args)

@@ -1,0 +1,2 @@
+module Cello::Structure
+end
