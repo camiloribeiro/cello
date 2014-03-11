@@ -4,7 +4,7 @@ class Elem < Struct.new(:element_id, :element_name, :element_type); end
 class Recorder
   def get_elements page_url
     foo = RestClient.get page_url 
-      title = foo.scan(/\<title\>(.*?)\<\/title\>/)[0].to_s.gsub!(/\W+/, ' ').strip!.split(" ").each { |w| w.capitalize! }.join("")
+    title = foo.scan(/\<title\>(.*?)\<\/title\>/)[0].to_s.gsub!(/\W+/, ' ').strip!.split(" ").each { |w| w.capitalize! }.join("")
     page = "require 'cello'\n"
     page += "class #{title} < Cello::PageObjects::Page\n\n"
     ary = Array.new()
@@ -25,8 +25,8 @@ class Recorder
       yup.element_id = yup.element_name if yup.element_id.nil? 
       page += "  element :#{yup.element_name}, :#{yup.element_type}, #{key} => '#{yup.element_id }'\n" if !yup.element_type.empty? && !yup.element_type != "hidden"
     end
-  page += "\n  url(\"#{page_url}\")\n\n"
-  page += "end\n"
-  puts page
+    page += "\n  url(\"#{page_url}\")\n\n"
+    page += "end\n"
+    page
   end
 end
