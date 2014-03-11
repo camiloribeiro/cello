@@ -25,9 +25,9 @@ CELLO
     |   / /||     |   It uses metaprog, so it doesn't rely in bad generated code from the rec feature.
     |  / /~~~/    |   It merges the power of selenium, the page object model and gherkin documentation.
      \/ / \ /     /
-     /`/.__Y__.-'      
-    /#/    | 
-           |
+     /`/.__Y__.-'     It also has a record option, that allows you to create a new page object in a sec.
+    /#/    |          
+           |                                   have fun :)
            !
     
 What is the idea?
