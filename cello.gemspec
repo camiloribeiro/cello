@@ -23,14 +23,14 @@ Gem::Specification.new do |s|
 
   s.add_development_dependency 'simplecov', '~> 0'
   s.add_development_dependency 'pry', '~> 0'
-  s.add_development_dependency 'rake', '~> 0'
+  s.add_development_dependency 'rake', '~> 10.4.2'
   s.add_development_dependency 'headless', '~> 0'
   s.add_development_dependency 'nyan-cat-formatter', '~> 0'
 
-  s.add_dependency 'cucumber', '~> 1.3.17'
-  s.add_dependency 'rspec', '~> 3.1.0'
-  s.add_dependency 'watir-webdriver', '~> 0.6.11'
+  s.add_dependency 'cucumber', '~> 2.0.0'
+  s.add_dependency 'rspec', '~> 3.2.0'
+  s.add_dependency 'watir-webdriver', '~> 0.7.0'
   s.add_dependency 'sourcify', '~> 0.5.0'
-  s.add_dependency 'icecream', '~> 0.0.11'
+  s.add_dependency 'icecream', '~> 0.0.14'
 
 end
