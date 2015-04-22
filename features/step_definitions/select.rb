@@ -8,7 +8,7 @@ Then /^I should be able to select an option on it$/ do
 end
 
 Then /^be sure that the option setted is the option selected$/ do
-  @browser.select_is("Cucumber").should be_true
+  @browser.select_is("Cucumber").should be true
   @browser.close
 end
 

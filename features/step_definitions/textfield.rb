@@ -1,12 +1,12 @@
 require "cello"
 
 Then /^I should can knows if this page has a textfield named "(.*?)"$/ do |text_field_name|
-  @browser.send("#{text_field_name}_is_real?").should be_true
+  @browser.send("#{text_field_name}_is_real?").should be true
   @browser.close
 end
 
 Then /^I should fail when ask if this page has a textfield named "(.*?)"$/ do |text_field_name|
-  @browser.send("#{text_field_name}_is_real?").should be_false
+  @browser.send("#{text_field_name}_is_real?").should be false
   @browser.close
 end
 
@@ -27,42 +27,42 @@ Then /^I shoud fail to try get the text "(.*?)" from this textfield$/ do |text|
 end
 
 Then /^I should be able to know if the text on the textfield does not contais the text "(.*?)"$/ do |text|
-  @browser.text_field_dont_contain(text).should be_true
+  @browser.text_field_dont_contain(text).should be true
   @browser.close
 end
 
 Then /^I should fail when ask if the text on the textfield does not contais the text "(.*?)"$/ do |text|
-  @browser.text_field_dont_contain(text).should be_false 
+  @browser.text_field_dont_contain(text).should be false 
   @browser.close
 end
 
 Then /^I should be able to know if the text on the textfield contais the text "(.*?)"$/ do |text|
-  @browser.text_field_contains(text).should be_true
+  @browser.text_field_contains(text).should be true
   @browser.close
 end
 
 Then /^I should fail when ask if the text on the textfield contais the text "(.*?)"$/ do |text|
-  @browser.text_field_contains(text).should be_false 
+  @browser.text_field_contains(text).should be false 
   @browser.close
 end
 
 Then /^I should be able to know if the text on the textfield is exacly the text "(.*?)"$/ do |text|
-  @browser.text_field_text_is(text).should be_true 
+  @browser.text_field_text_is(text).should be true 
   @browser.close
 end
 
 Then /^I should fail when ask if the text on the textfield is exacly the text "(.*?)"$/ do |text|
-  @browser.text_field_text_is(text).should be_false 
+  @browser.text_field_text_is(text).should be false 
   @browser.close
 end
 
 Then /^I should be able to know if the textfield is empty$/ do
-  @browser.text_field_is_empty?.should be_true
+  @browser.text_field_is_empty?.should be true
   @browser.close
 end
 
 Then /^I should fail when ask if the textfield is empty$/ do
-  @browser.text_field_is_empty?.should be_false
+  @browser.text_field_is_empty?.should be false
   @browser.close
 end
 
