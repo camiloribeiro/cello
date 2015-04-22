@@ -7,14 +7,10 @@ describe Cello::PageObjects::SelectHelper do
       @page = Mock::Site::MockPage.new "foo"
     end
     it "Select an option method exists" do
-      (@page.methods.map.include? :select_select).should be_true
-    end
-    it "go to default or empty option method exists" do
-      pending
-      (@page.methods.map.include? :select_clear).should be_true
+      (@page.methods.map.include? :select_select).should be true
     end
     it "return the selected option method exists" do
-      (@page.methods.map.include? :select_selected).should be_true
+      (@page.methods.map.include? :select_selected).should be true
     end
   end
 end
