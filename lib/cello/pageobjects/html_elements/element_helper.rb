@@ -60,7 +60,7 @@ module Cello
 
         define_method "#{name}_wait_exists_for" do |timeout|
           t = 0
-          while send(name).exists? || t < timeout do 
+          while !send(name).exists? || t < timeout do 
             sleep 1
             t += 1 
           end
@@ -70,7 +70,7 @@ module Cello
 
         define_method "#{name}_wait_visible_for" do |timeout|
           t = 0
-          while send(name).visible? || t < timeout do 
+          while !send(name).visible? || t < timeout do 
             sleep 1 
             t += 1 
           end
