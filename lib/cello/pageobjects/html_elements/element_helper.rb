@@ -58,6 +58,26 @@ module Cello
           #}
         end
 
+        define_method "#{name}_wait_exists_for" do |timeout|
+          t = 0
+          while send(name).exists? || t < timeout do 
+            sleep 1
+            t += 1 
+          end
+          true if t < timeout 
+          false if t >= timeout 
+        end
+
+        define_method "#{name}_wait_visible_for" do |timeout|
+          t = 0
+          while send(name).visible? || t < timeout do 
+            sleep 1 
+            t += 1 
+          end
+          true if t < timeout 
+          false if t >= timeout 
+        end
+
         method_name = "define_extras_for_#{type}"
         send(method_name, name) if respond_to? method_name
       end
