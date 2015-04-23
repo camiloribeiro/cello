@@ -11,14 +11,13 @@ module Cello
       def element(name, type, *args)        
         class_eval do
           define_method name do
-            engine.browser.send(type, *args)
+            engine.send(type, *args)
           end
 
-          #define_extras(name, type)
           define_extras(name, type)
         end
-
       end
+
 
       def define_extras(name, type)
         include LogHelper
@@ -74,7 +73,7 @@ module Cello
      include ButtonHelper
      include SpanHelper
      include HiddenHelper
-     include IframeHelper 
+     include IframeHelper
 
     end
   end

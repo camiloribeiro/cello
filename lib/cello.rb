@@ -13,6 +13,7 @@ require File.join(File.dirname(__FILE__), './cello/commands')
 
 #internal dependences
 require File.join(File.dirname(__FILE__), './cello/pageobjects/page')
+require File.join(File.dirname(__FILE__), './cello/pageobjects/iframe')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/browser')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/recorder')
 

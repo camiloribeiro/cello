@@ -7,7 +7,7 @@ module Cello
       attr_accessor :context
       attr_reader :browser
 
-      def initialize(browser)
+      def initialize browser
         @browser = Watir::Browser.new browser
       end
       
@@ -15,11 +15,11 @@ module Cello
         @context.visit
       end
 
-      def context(page)
-        @context = page.new(@browser)
+      def context page
+        @context = page.new @browser 
       end
 
-      def search(text)
+      def search text 
        @browser.text.include? text 
       end
 
@@ -39,8 +39,8 @@ module Cello
         #pending
       end
 
-      def method_missing(method_name, *arguments)
-        @context.send(method_name, *arguments)
+      def method_missing method_name, *arguments
+        @context.send method_name, *arguments
       end
     end
   end
