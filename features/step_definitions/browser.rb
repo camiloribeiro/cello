@@ -8,12 +8,21 @@ When /^I ask for the context inputs$/ do
   @browser.context StaticPages::Site::InputPage
 end
 
+When /^I ask for the context iframe$/ do
+  @browser.context StaticPages::Site::IframePage
+end
+
 When /^and I ask to visit the page$/ do
   @browser.visit
 end
 
 Then /^I should see the page inputs$/ do
   @browser.title.should == "Inputs page"
+  @browser.close
+end
+
+Then /^I should see the page iframe$/ do
+  @browser.title.should == "Iframe page"
   @browser.close
 end
 

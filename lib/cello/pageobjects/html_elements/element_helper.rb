@@ -39,7 +39,6 @@ module Cello
         end
         define_method "#{name}_click" do
           logger(name, __method__, type) {
-#            require "pry"; binding.pry
             send(name).click
           }
         end
@@ -75,6 +74,7 @@ module Cello
      include ButtonHelper
      include SpanHelper
      include HiddenHelper
+     include IframeHelper 
 
     end
   end

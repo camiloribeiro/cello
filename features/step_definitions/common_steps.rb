@@ -17,12 +17,11 @@ And /^There is a checkbox checked$/ do
 end
 
 Given(/^I am on a page that has a textfield inside a iframe$/) do
-  @user.should be nil
-  @user = StaticPages::Site::Phantom.new
-  @user.title.should == ""
-  @user.context StaticPages::Site::IframePage
-  @user.title.should == ""
-  @user.visit
-  # require "pry"; binding.pry
-  @user.title.should == "Iframe page"
+  @browser.should be nil
+  @browser = StaticPages::Site::Phantom.new
+  @browser.title.should == ""
+  @browser.context StaticPages::Site::IframePage
+  @browser.title.should == ""
+  @browser.visit
+  @browser.title.should == "Iframe page"
 end

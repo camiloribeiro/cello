@@ -7,17 +7,17 @@ module Cello
       extend Cello::PageObjects::ElementHelper
       attr_reader :engine
 
+      MESS = "SYSTEM ERROR: method missing"
+
       def initialize(engine)
         @engine = engine
       end
 
       def visit
-        @engine.goto @@url
+        @engine.goto url
       end
 
-      def self.url(url)
-        @@url = url
-      end
+      def url; raise MESS; end
 
     end
   end

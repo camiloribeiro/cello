@@ -12,7 +12,9 @@ module StaticPages
       element :select,  :select, :id => 'select1'
       element :link,  :link, :id => 'link1'
       
-      url('file://' + File.dirname(__FILE__) + '/../site/inputs.html')
+      def url 
+        'file://' + File.dirname(__FILE__) + '/../site/inputs.html'
+      end
 
     end
   end

@@ -8,13 +8,19 @@ Feature: Browser
     And and I ask to visit the page
     Then I should see the page inputs
 
+  Scenario: Get another context
+    Given I have a browser with no context (blank page)
+    When I ask for the context iframe
+    And and I ask to visit the page
+    Then I should see the page iframe
+
   Scenario: Fill a textfield on a context
     Given I am in the inputs context
     When I ask for fill the textfield
     Then I should see the filled textfield
     And I should be able to close the browser
 
-  @pending @bugado
+  @pending
   Scenario: Pass by two different contexts
     Given I am in the inputs context
     When I ask for fill the textfield
