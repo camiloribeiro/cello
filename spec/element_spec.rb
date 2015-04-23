@@ -21,6 +21,12 @@ describe "Class with element" do
     it "Click with the right button on the element method exists" do
       (@page.methods.map.include? :element_right_click).should be true
     end
+    it "Wait visible for on the element method exists" do
+      (@page.methods.map.include? :element_wait_visible_for).should be true
+    end
+    it "Wait exists for on the element method exists" do
+      (@page.methods.map.include? :element_wait_exists_for).should be true
+    end
   end
 end
 
