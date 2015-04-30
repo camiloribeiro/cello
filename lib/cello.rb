@@ -15,6 +15,7 @@ require File.join(File.dirname(__FILE__), './cello/commands')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/page')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/iframe')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/browser')
+require File.join(File.dirname(__FILE__), './cello/pageobjects/hub')
 require File.join(File.dirname(__FILE__), './cello/pageobjects/recorder')
 
 require File.join(File.dirname(__FILE__), './cello/structure/new_project')
