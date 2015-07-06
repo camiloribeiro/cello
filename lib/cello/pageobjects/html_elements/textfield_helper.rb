@@ -5,9 +5,6 @@ module Cello
         define_method "#{name}_clear" do
           send(name).clear
         end
-        define_method "#{name}_get_text" do
-          send(name).value
-        end
         define_method "#{name}_fill_with" do |text|
           send(name).set text
         end

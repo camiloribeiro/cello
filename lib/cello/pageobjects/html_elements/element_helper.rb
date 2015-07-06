@@ -26,6 +26,10 @@ module Cello
           send(name).visible? 
         end
 
+        define_method "#{name}_get_text" do
+          send(name).value
+        end
+
         define_method "#{name}_is_enable?" do
           #logger(name, __method__, type) {
           send(name).enabled? 
