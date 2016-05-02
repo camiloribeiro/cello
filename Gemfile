@@ -7,8 +7,9 @@ gem 'cucumber'
 gem 'rake'
 gem 'headless'
 gem 'rspec'
-gem "nyan-cat-formatter"
-gem "sourcify", "~> 0.5.0"
+gem 'rest-client'
+gem 'nyan-cat-formatter'
+gem 'sourcify', '~> 0.5.0'
 gem 'coveralls', require: false
 
 gemspec
