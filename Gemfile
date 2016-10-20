@@ -2,7 +2,7 @@ source "http://rubygems.org"
 
 gem 'pry'
 gem 'simplecov'
-gem 'watir-webdriver'
+gem 'watir'
 gem 'cucumber'
 gem 'rake'
 gem 'headless'

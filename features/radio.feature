@@ -6,7 +6,7 @@ Feature: Radio
   Scenario: See whitch option of a radio collection is setted
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Ruby" is setted
@@ -15,7 +15,7 @@ Feature: Radio
   Scenario: See if a radio option is not setted
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Ruby" is setted
@@ -24,7 +24,7 @@ Feature: Radio
   Scenario: See if a radio option is not setted (Counter Proof)
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Cucumber" is setted
@@ -33,7 +33,7 @@ Feature: Radio
   Scenario: See if a radio option is setted
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Ruby" is setted
@@ -42,7 +42,7 @@ Feature: Radio
   Scenario: See if a radio option is setted (counter proof)
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     Then I should fail when ask if the option "Ruby" is setted
@@ -50,7 +50,7 @@ Feature: Radio
   Scenario: See if the radio collection has some option setted
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Ruby" is setted
@@ -59,7 +59,7 @@ Feature: Radio
   Scenario: See if the radio collection has some option setted
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     Then I should fail when ask if there is some options setted 
@@ -67,7 +67,7 @@ Feature: Radio
   Scenario: Select an radio option  
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Ruby" is setted
@@ -77,7 +77,7 @@ Feature: Radio
   Scenario: Select an radio option  
     Given I am on a page that has a radio group with the follow opitions:
       | cucumber           | 
-      | watir-webdriver    | 
+      | watir              | 
       | selenium-webdriver | 
       | ruby               | 
     And the option "Ruby" is setted

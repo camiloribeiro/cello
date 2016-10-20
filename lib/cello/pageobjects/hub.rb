@@ -1,5 +1,5 @@
 require "rubygems"
-require "watir-webdriver"
+require "watir"
 
 module Cello
   module PageObjects

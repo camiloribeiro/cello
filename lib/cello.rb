@@ -2,8 +2,7 @@ require File.join(File.dirname(__FILE__), './cello/version')
 require 'bundler/setup'
 
 #common dependencies
-require 'selenium-webdriver'
-require 'watir-webdriver'
+require 'watir'
 require 'cucumber'
 
 #Modules
