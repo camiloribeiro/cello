@@ -55,6 +55,8 @@ Developing
 ----------
 To develop `cello`, you are going to need [Bundler][1] 
 
+You need to have phantomjs installed to run the tests: http://phantomjs.org/ 
+
     $ git clone git@github.com:camiloribeiro/cello.git
     $ cd cello
     $ bundle install
