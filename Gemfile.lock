@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    cello (0.0.34)
+    cello (0.0.35)
       cucumber (~> 2.0.0)
       icecream (~> 0.0.14)
       rspec (~> 3.3.0)
