@@ -52,6 +52,10 @@ Instructions
 
 Developing
 ----------
+
+This project adheres to the Contributor Covenant [code of conduct](CODE_OF_CONDUCT.md).
+By participating, you are expected to uphold this code.
+
 To develop `cello`, you are going to need [Bundler][1] 
 
 You need to have phantomjs installed to run the tests: http://phantomjs.org/ 
