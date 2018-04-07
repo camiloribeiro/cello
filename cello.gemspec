@@ -28,7 +28,7 @@ Gem::Specification.new do |s|
   s.add_development_dependency 'nyan-cat-formatter', '~> 0'
 
   s.add_dependency 'cucumber', '~> 2.0.0'
-  s.add_dependency 'rspec', '~> 3.3.0'
+  s.add_dependency 'rspec', '~> 3.7.0'
   s.add_dependency 'watir', '~> 5.0.0'
   s.add_dependency 'selenium-webdriver', '~> 3.0.0'
   s.add_dependency 'sourcify', '~> 0.5.0'

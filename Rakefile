@@ -5,11 +5,11 @@ Coveralls::RakeTask.new
 
 task :default => [:spec,:run, 'coveralls:push']
 
-RSpec::Core::RakeTask .new(:spec) do |task|
+RSpec::Core::RakeTask.new(:spec) do |task|
   task.rspec_opts = ["--format documentation"]
 end
 
-RSpec::Core::RakeTask .new(:nyan) do |task|
+RSpec::Core::RakeTask.new(:nyan) do |task|
   task.rspec_opts = ["--format NyanCatFormater"]
 end
 
