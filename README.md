@@ -114,7 +114,7 @@ ASCII Image: http://www.geocities.com/spunk1111/music.htm
 LICENSE
 =======
 
-Copyright 2012 - 2016 Camilo Ribeiro camilo@camiloribeiro.com
+Copyright 2012 - 2018 Camilo Ribeiro camilo@camiloribeiro.com
 
 This file is part of Cello.
 
