@@ -3,7 +3,7 @@ CELLO
 [![Gem Version](https://badge.fury.io/rb/cello.png)](http://badge.fury.io/rb/cello)
 [![Build Status](https://travis-ci.org/camiloribeiro/cello.png?branch=master)](https://travis-ci.org/camiloribeiro/cello)
 [![Code Climate](https://codeclimate.com/github/camiloribeiro/cello.png)](https://codeclimate.com/github/camiloribeiro/cello)
-[![Dependency Status](https://gemnasium.com/camiloribeiro/cello.png)](https://gemnasium.com/camiloribeiro/cello)
+[![Dependency Status](https://gemnasium.com/badges/github.com/camiloribeiro/cello.svg)](https://gemnasium.com/github.com/camiloribeiro/cello)
 [![Coverage Status](https://coveralls.io/repos/camiloribeiro/cello/badge.png)](https://coveralls.io/r/camiloribeiro/cello)
 
 
